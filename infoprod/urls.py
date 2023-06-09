@@ -20,6 +20,7 @@ from pho import views as views_pho
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views_pho.pagina_vendas_delay, name='pvd'),
     path('profissao-homeoffice', views_pho.pagina_vendas, name='pv'),
     path('profissao-homeoffice/video', views_pho.pagina_vendas_delay, name='video'),
 ]
