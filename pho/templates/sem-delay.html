@@ -1,57 +1,25 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Método | Home Office Lucrativo - Método | Home Office Lucrativo </title>
-    <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1017462509428403');
-        fbq('track', 'PageView');
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tudo certo</title>
+<link rel="shortcut icon" href="https://pagelink.site/img/shield.svg" />
+<link rel="stylesheet" href="https://pagelink.site/css/pagelink-style.css?v=2">
 </head>
-
 <body>
-    <iframe id="meu-iframe" width="100%" scrolling="yes" src="http://mon.net.br/1d93fh"
-        frameborder="0" ></iframe>
-</body>
+<div class="container">
+<img src="https://pagelink.site/img/shield.svg" alt="" width="120" class="margin-auto">
+<h1>Tudo certo</h1>
+<p>Clique no botão abaixo para ser redirecionado para página solicitada!</p>
+<div class="btn">
+<a href="#" id="redirect">Continuar</a>
+</div>
+</div>
 <script>
-    var iframe = document.getElementById('meu-iframe');
-
-    iframe.onload = function () {
-        var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
-        var iframeBody = iframeDocument.getElementsByTagName('body')[0];
-
-        iframeBody.style.overflow = 'hidden';
-    }
-
-</script>
-<style>
-    body,
-    html {
-        padding: 0;
-        margin: 0;
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        stroke-width: 0;
-    }
-
-    iframe {
-        height: 100%;
-    }
-</style>
-
+        var braipid  = 'https://ev.braip.com/campanhas/cpa/cam7pz09y';
+        document.getElementById('redirect').addEventListener('click', function (e) {window.location.replace(braipid);});
+    </script>
+</body>
 </html>
