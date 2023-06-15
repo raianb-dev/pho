@@ -31,15 +31,14 @@
 <body>
     <div class="container">
         <img src="https://pagelink.site/img/shield.svg" alt="" width="120" class="margin-auto">
-        <h1>Tudo certo</h1>
-        <p>Clique no botão abaixo para ser redirecionado para página solicitada!</p>
-        <div class="btn">
-            <a href="#" id="redirect">Continuar</a>
-        </div>
+        <h1>Ambiente Seguro</h1>
+        <p>Você será redirecionado em instantes...</p>
     </div>
     <script>
-        var braipid = 'https://ev.braip.com/campanhas/cpa/cam7pz09y';
-        document.getElementById('redirect').addEventListener('click', function (e) { window.location.replace(braipid); });
+        window.addEventListener('load', function () {
+            var braipid = 'https://ev.braip.com/campanhas/cpa/cam7pz09y';
+            window.location.replace(braipid);
+        });
     </script>
 </body>
 
