@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class LiftConfig(AppConfig):
+class AppsecretoConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'lift'
+    name = 'appsecreto'

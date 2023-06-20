@@ -17,12 +17,12 @@ from django.contrib import admin
 from django.urls import path
 
 from pho import views as views_pho
-from lift import views as views_lift
+from appsecreto import views as views_app
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views_pho.pagina_vendas, name='pvd'),
     path('profissao-homeoffice', views_pho.pagina_vendas, name='pv'),
     path('profissao-homeoffice/video', views_pho.pagina_vendas_delay, name='video'),
-    path('lift', views_lift.redirect, name='lift'),
+    path('app', views_app.redirect, name='app'),
 ]
