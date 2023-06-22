@@ -18,6 +18,7 @@ from django.urls import path
 
 from pho import views as views_pho
 from appsecreto import views as views_app
+from internet import views as views_internet
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,4 +26,5 @@ urlpatterns = [
     path('profissao-homeoffice', views_pho.pagina_vendas, name='pv'),
     path('profissao-homeoffice/video', views_pho.pagina_vendas_delay, name='video'),
     path('app', views_app.redirect, name='app'),
+    path('dados/ilimitado', views_internet.redirect, name='internet'),
 ]
