@@ -26,5 +26,5 @@ urlpatterns = [
     path('profissao-homeoffice', views_pho.pagina_vendas, name='pv'),
     path('profissao-homeoffice/video', views_pho.pagina_vendas_delay, name='video'),
     path('app', views_app.redirect, name='app'),
-    path('dados/ilimitado', views_internet.redirect, name='internet'),
+    path('dadosmoveisilimitado', views_internet.redirect, name='internet'),
 ]
